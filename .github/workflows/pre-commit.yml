@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: © 2025 Authors of the ROAR-NET API Specification <https://github.com/roar-net/roar-net-api-spec/blob/main/AUTHORS>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: pre-commit hooks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v3
+    - uses: pre-commit/action@v3.0.1

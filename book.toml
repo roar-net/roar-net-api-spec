@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: © 2025 Authors of the ROAR-NET API Specification <https://github.com/roar-net/roar-net-api-spec/blob/main/AUTHORS>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+[book]
+authors = ["Alexandre Jesus"]
+language = "en"
+multilingual = false
+src = "src"
+title = "ROAR-NET API Specification"
+
+[output.html]
+edit-url-template="https://github.com/roar-net/roar-net-api-specification/edit/main/{path}"
+mathjax-support = true

@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: © 2025 Authors of the ROAR-NET API Specification <https://github.com/roar-net/roar-net-api-spec/blob/main/AUTHORS>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+default: true
+
+MD013:
+  line_length: 72
+  stern: true
+
+MD033:
+  allowed_elements:
+    - img
+    - div
+    - br

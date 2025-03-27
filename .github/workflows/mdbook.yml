@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: © 2025 Authors of the ROAR-NET API Specification <https://github.com/roar-net/roar-net-api-spec/blob/main/AUTHORS>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: mdbook build
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  mdbook-build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install mdbook
+      run: |
+        mkdir bin
+        curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.47/mdbook-v0.4.47-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
+        echo "$(pwd)/bin" >> "${GITHUB_PATH}"
+    - name: Report version
+      run:
+        mdbook --version
+    - name: Build specification
+      run:
+        mdbook build
