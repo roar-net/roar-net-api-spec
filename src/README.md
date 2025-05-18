@@ -72,7 +72,7 @@ Furthermore, it considers the following main algorithmic approaches:
 
 Extensions to multiple objectives, uncertainty settings, and support for
 further algorithms are currently under discussion on the [Github
-repository](https://github.com/roar-net/roar-net-api-specification),
+repository](https://github.com/roar-net/roar-net-api-spec),
 where everyone is welcome to contribute and propose new ideas.
 
 ## Acknowledgement
