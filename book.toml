@@ -10,5 +10,5 @@ src = "src"
 title = "ROAR-NET API Specification"
 
 [output.html]
-edit-url-template="https://github.com/roar-net/roar-net-api-specification/edit/main/{path}"
+edit-url-template="https://github.com/roar-net/roar-net-api-spec/edit/main/{path}"
 mathjax-support = true
