@@ -15,7 +15,7 @@ A solution for which all (decision) components are decided on.
 A neighbourhood structure for partial solutions where every neighbour
 solution is more complete, in the sense that more components are
 decided on, and may either be a partial or a complete solution. This
-means that, the consecutive application of (constructive) moves to a
+means that the consecutive application of (constructive) moves to a
 given partial solution will eventually lead to a complete solution.
 
 ## decision space
