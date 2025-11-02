@@ -10,6 +10,9 @@ This repository contains the ROAR-NET API Specification. For more
 information about the specification see the introduction in
 [src/README.md](./src/README.md).
 
+You can find the rendered book at
+[https://roar-net.github.io/roar-net-api-spec/](https://roar-net.github.io/roar-net-api-spec/).
+
 **Note**: This specification is still in an early development phase,
 and as such no officially released version is available yet.
 
