@@ -32,5 +32,5 @@ in order to visit new solutions.
 
 [Move](../types/Move.md),
 [Solution](../types/Solution.md),
-[invert\_move](./invert_move.md),
+[inverse\_move](./inverse_move.md),
 [moves](./moves.md).
