@@ -59,6 +59,5 @@ neighbourhood structure.
 [Solution](./Solution.md),
 [moves](../operations/moves.md),
 [apply\_move](../operations/apply_move.md),
-[inverse\_move](../operations/inverse_move.md),
 [lower\_bound\_increment](../operations/lower_bound_increment.md),
 [objective\_value\_increment](../operations/objective_value_increment.md).

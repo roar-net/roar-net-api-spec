@@ -20,8 +20,7 @@ corresponding neighbour.
 ## Pre-requisites
 
 The given move must have been generated under some neighbourhood for
-the given solution or a pristine copy of it, or be the inverse of the
-move that produced the given solution.
+the given solution or a pristine copy of it.
 
 ## Use cases
 
@@ -32,5 +31,5 @@ in order to visit new solutions.
 
 [Move](../types/Move.md),
 [Solution](../types/Solution.md),
-[inverse\_move](./inverse_move.md),
-[moves](./moves.md).
+[moves](./moves.md),
+[revert\_move](./revert_move.md).
