@@ -27,7 +27,7 @@ SPDX-License-Identifier: CC-BY-4.0
   - [random\_move](./operations/random_move.md)
   - [random\_moves\_without\_replacement](./operations/random_moves_without_replacement.md)
   - [apply\_move](./operations/apply_move.md)
-  - [invert\_move](./operations/invert_move.md)
+  - [revert\_move](./operations/revert_move.md)
   - [lower\_bound\_increment](./operations/lower_bound_increment.md)
   - [objective\_value\_increment](./operations/objective_value_increment.md)
 - [Glossary](./glossary.md)

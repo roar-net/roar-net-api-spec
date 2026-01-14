@@ -28,8 +28,7 @@ positive.
 ## Pre-requisites
 
 The given move must have been generated under some neighbourhood
-structure for the given solution or a pristine copy of it, or be the
-inverse of the move that produced the given solution.
+structure for the given solution or a pristine copy of it.
 
 ## Use cases
 
@@ -55,4 +54,5 @@ to solutions.
 [Move](../types/Move.md),
 [lower\_bound](./lower_bound.md),
 [objective\_value](./objective_value.md),
-[objective\_value\_increment](./objective_value_increment.md).
+[objective\_value\_increment](./objective_value_increment.md),
+[apply\_move](./apply_move.md).
