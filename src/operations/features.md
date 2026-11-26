@@ -21,9 +21,7 @@ this neighbourhood that can be evaluated on demand via `feature_value`.
 
 ## Use cases
 
-Retrieving the available features of a neighbourhood—most notably a
-construction neighbourhood—is required by generative and selective
-hyper-heuristics:
+Retrieving the available features of a neighbourhood, currently only supported for constructive neighborhood, required by generative hyper-heuristics:
 
 - **Genetic Programming (GP)** hyper-heuristics query `features` to
   construct the terminal set from which symbolic move-scoring rules

@@ -36,6 +36,13 @@ will eventually lead to an empty solution.
 
 A solution for which no components are decided on.
 
+## feature
+
+An elementary domain descriptor associated with a neighbourhood
+structure that maps a move and a candidate solution to a numerical or
+Boolean value on demand. Features serve as terminal primitives for
+constructing or evolving move-scoring functions in hyper-heuristics.
+
 ## feasible set
 
 The subset of the decision space consisting of all feasible solutions.
@@ -43,6 +50,13 @@ The subset of the decision space consisting of all feasible solutions.
 ## feasible solution
 
 A solution for which the objective function is defined.
+
+## hyper-heuristic
+
+A high-level automated search methodology that explores a space of
+heuristics or heuristic components (such as move-scoring functions for
+constructive search) rather than operating directly on the space of
+candidate solutions.
 
 ## infeasible solution
 
@@ -59,6 +73,12 @@ feasible.
 A description of, or a data structure encoding, a set of changes to be
 applied to a solution to obtain a neighbour solution. A move is
 assumed to always be associated to some neighbourhood structure.
+
+## move-scoring function
+
+A function (also referred to as a *priority rule*) that assigns a real
+value to a candidate move in the context of a current solution in order
+to rank or select moves within a constructive or local search scheme.
 
 ## neighbour
 
