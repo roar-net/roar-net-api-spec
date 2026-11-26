@@ -34,5 +34,5 @@ Symbolic feature identifiers are used to:
 [Feature](../types/Feature.md),
 [Neighbourhood](../types/Neighbourhood.md),
 [features](./features.md),
-[feature\_description](./feature_description.md),
+[description](./description.md),
 [feature\_value](./feature_value.md).

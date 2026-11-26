@@ -52,7 +52,9 @@ to solutions.
 [Solution](../types/Solution.md),
 [Neighbourhood](../types/Neighbourhood.md),
 [Move](../types/Move.md),
+[Feature](../types/Feature.md),
 [lower\_bound](./lower_bound.md),
 [objective\_value](./objective_value.md),
 [objective\_value\_increment](./objective_value_increment.md),
-[apply\_move](./apply_move.md).
+[apply\_move](./apply_move.md),
+[feature\_value](./feature_value.md).

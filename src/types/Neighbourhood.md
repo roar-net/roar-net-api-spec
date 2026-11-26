@@ -55,7 +55,10 @@ the instances of the `Neighbourhood` types implemented.
 [Problem](./Problem.md),
 [Solution](./Solution.md),
 [Move](./Move.md),
+[Feature](./Feature.md),
+[description](../operations/description.md),
 [construction\_neighbourhood](../operations/construction_neighbourhood.md),
 [destruction\_neighbourhood](../operations/destruction_neighbourhood.md),
 [local\_neighbourhood](../operations/local_neighbourhood.md),
-[moves](../operations/moves.md).
+[moves](../operations/moves.md),
+[features](../operations/features.md).

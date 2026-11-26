@@ -47,7 +47,7 @@ algorithms:
   via `feature_value`.
 - **Semantic self-description**: Each `Feature` instance is accompanied
   by a unique identifier (`feature_name`) and a natural-language
-  specification (`feature_description`). This allows symbolic and
+  specification (`description`). This allows symbolic and
   language-model-based hyper-heuristics to reason about the domain
   semantics of each feature without accessing internal data structures
   of `Problem`, `Solution`, or `Move`.
@@ -92,9 +92,9 @@ constructive search:
 [Solution](./Solution.md),
 [Neighbourhood](./Neighbourhood.md),
 [Move](./Move.md),
+[description](../operations/description.md),
 [features](../operations/features.md),
 [feature\_value](../operations/feature_value.md),
 [feature\_name](../operations/feature_name.md),
-[feature\_description](../operations/feature_description.md),
 [lower\_bound\_increment](../operations/lower_bound_increment.md),
 [objective\_value\_increment](../operations/objective_value_increment.md).

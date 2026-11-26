@@ -40,6 +40,8 @@ parameters must be defined in `Problem`.
 
 [Solution](./Solution.md),
 [Neighbourhood](./Neighbourhood.md),
+[Feature](./Feature.md),
+[description](../operations/description.md),
 [empty\_solution](../operations/empty_solution.md),
 [random\_solution](../operations/random_solution.md),
 [construction\_neighbourhood](../operations/construction_neighbourhood.md),

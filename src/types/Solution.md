@@ -76,10 +76,12 @@ modify them via neighbourhoods and their moves.
 [Problem](./Problem.md),
 [Neighbourhood](./Neighbourhood.md),
 [Move](./Move.md),
+[Feature](./Feature.md),
 [empty\_solution](../operations/empty_solution.md),
 [random\_solution](../operations/random_solution.md),
 [copy\_solution](../operations/copy_solution.md),
 [lower\_bound](../operations/lower_bound.md),
 [objective\_value](../operations/objective_value.md),
 [moves](../operations/moves.md),
-[apply\_move](../operations/apply_move.md).
+[apply\_move](../operations/apply_move.md),
+[feature\_value](../operations/feature_value.md).

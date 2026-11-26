@@ -31,5 +31,7 @@ and ruin and recreate.
 
 [Problem](../types/Problem.md),
 [Neighbourhood](../types/Neighbourhood.md),
+[Feature](../types/Feature.md),
 [destruction\_neighbourhood](./destruction_neighbourhood.md),
-[empty\_solution](./empty_solution.md).
+[empty\_solution](./empty_solution.md),
+[features](./features.md).

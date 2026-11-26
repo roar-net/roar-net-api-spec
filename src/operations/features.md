@@ -21,14 +21,16 @@ this neighbourhood that can be evaluated on demand via `feature_value`.
 
 ## Use cases
 
-Retrieving the available features of a neighbourhood, currently only supported for constructive neighborhood, required by generative hyper-heuristics:
+Retrieving the available features of a neighbourhood, currently only
+supported for constructive neighborhood, required by generative
+hyper-heuristics:
 
 - **Genetic Programming (GP)** hyper-heuristics query `features` to
   construct the terminal set from which symbolic move-scoring rules
   (priority functions) are evolved.
 - **Large Language Model (LLM)** hyper-heuristics query `features` and
   inspect each feature's identifier (`feature_name`) and specification
-  (`feature_description`) to construct prompts for automated heuristic
+  (`description`) to construct prompts for automated heuristic
   synthesis.
 
 Because this operation returns `Feature` descriptors rather than
@@ -43,6 +45,6 @@ and `Solution`.
 [Move](../types/Move.md),
 [Solution](../types/Solution.md),
 [construction\_neighbourhood](./construction_neighbourhood.md),
+[description](./description.md),
 [feature\_value](./feature_value.md),
-[feature\_name](./feature_name.md),
-[feature\_description](./feature_description.md).
+[feature\_name](./feature_name.md).

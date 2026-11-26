@@ -57,7 +57,9 @@ neighbourhood structure.
 
 [Neighbourhood](./Neighbourhood.md),
 [Solution](./Solution.md),
+[Feature](./Feature.md),
 [moves](../operations/moves.md),
 [apply\_move](../operations/apply_move.md),
 [lower\_bound\_increment](../operations/lower_bound_increment.md),
-[objective\_value\_increment](../operations/objective_value_increment.md).
+[objective\_value\_increment](../operations/objective_value_increment.md),
+[feature\_value](../operations/feature_value.md).

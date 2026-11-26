@@ -57,8 +57,8 @@ uniformly as composite features.
 [Move](../types/Move.md),
 [Solution](../types/Solution.md),
 [Neighbourhood](../types/Neighbourhood.md),
+[description](./description.md),
 [features](./features.md),
 [feature\_name](./feature_name.md),
-[feature\_description](./feature_description.md),
 [lower\_bound\_increment](./lower_bound_increment.md),
 [objective\_value\_increment](./objective_value_increment.md).
