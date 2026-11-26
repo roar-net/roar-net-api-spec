@@ -12,3 +12,4 @@ The types to be defined by the user in this specification are:
 - Solution
 - Move
 - Neighbourhood
+- Feature
